@@ -1222,7 +1222,16 @@ public class cg_graph extends DefaultDirectedWeightedGraph<String, edge> impleme
 	public void displaySize(){
 		System.out.println("Vertext amount: "+this.vertexSet().size()+" , Edge amount: "+this.edgeSet().size());
 	}
-	
+	public void graphInfo(){
+		System.out.println("========vertex info========");
+		for(String v:this.vertexSet()){
+			System.out.println(v);
+		}
+		System.out.println("========edge info========");
+		for(edge e:this.edgeSet()){
+			System.out.println("source "+e.getSource()+" target "+e.getTarget());
+		}
+	}
 	
 	
 	/**

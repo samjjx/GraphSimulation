@@ -795,7 +795,7 @@ public class ranGraph {
 	public static void main(String[] args){
 		ranGraph rang = new ranGraph();
 //		rang.graphGen(args[0], args[1], args[2]);
-		rang.graphGen("100", "1000", "");
+		rang.graphGen("62586", "147892", "");
 		rang.patternGen(4, 6, "");
 
 //		grpattr graph = rang.ranDAG(6, 12);
